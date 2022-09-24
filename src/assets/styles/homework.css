@@ -14,3 +14,14 @@
     font-size: 44px;
     text-align: center;
 }
+
+.h3style {
+    font-size: 36px;
+    text-align: center;
+}
+
+.h4style {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
