@@ -21,3 +21,27 @@
          url("/static/fonts/Inter-Regular.woff2") format("woff");
     font-weight: 400;
 }
+
+@font-face {
+    font-family: "Inter";
+    src: local('Inter'), local('Inter-Regular'), local('Inter Regular'),
+    url("/static/fonts/Inter-Regular.ttf") format("truetype"),
+    url("/static/fonts/Inter-Regular.woff2") format("woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local('Inter'), local('Inter-Regular'), local('Inter Regular'),
+    url("/static/fonts/Inter-Regular.ttf") format("truetype"),
+    url("/static/fonts/Inter-Regular.woff2") format("woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local('Inter'), local('Inter-Regular'), local('Inter Regular'),
+    url("/static/fonts/Inter-Regular.ttf") format("truetype"),
+    url("/static/fonts/Inter-Regular.woff2") format("woff");
+    font-weight: 400;
+}
