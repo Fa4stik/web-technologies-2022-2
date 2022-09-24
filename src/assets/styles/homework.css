@@ -25,3 +25,70 @@
     line-height: 30px;
     color: #1F3F68;
 }
+
+.input {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.inputButton {
+    background-image: linear-gradient(135deg, #2785c7 40%, #523a83 100%);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border: none;
+}
+
+.bgimage {
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ffa20346576771.585a0ac1d952f.png");
+}
+
+.breadcrubs {
+    width: 5px;
+    margin: 7px;
+    /*padding: 20px;*/
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-right-color: #ffffff;
+    border-right-style: inset;
+    border-right-width: 3px;
+    background-image: linear-gradient(0deg, #4e8165 20%, #ffffff 80%);
+    box-shadow: 3px 0px rgba(122,122,122,0.9);
+}
+
+.bcli {
+    width: 100px;
+    display: inline-block;
+    margin-right: -30px;
+    position: relative;
+    z-index: 5;
+}
+
+.bclia {
+    display: inline-block;
+    margin-right: -30px;
+    position: relative;
+    z-index: 7;
+}
+
+.ali {
+    text-decoration: none;
+    color: black;
+}
+
+.flex {
+    display: flex;
+}
+.flex.centered {
+    justify-content: center;
+}
