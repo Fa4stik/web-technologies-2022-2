@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 80px;
+
+    position: absolute;
+    width: 1124px;
+    height: 56px;
+    left: 108px;
+    top: 24px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* Elevation 4 pt · Badges */
+
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+}
