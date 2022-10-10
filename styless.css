@@ -3,11 +3,10 @@
     flex-direction: row;
     align-items: center;
     padding: 16px 24px;
-    gap: 80px;
+    gap: 65px;
     position: absolute;
     width: 1200px;
     height: 56px;
-    left: 108px;
     top: 24px;
     background: #FFFFFF;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
@@ -52,4 +51,8 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+}
+
+.headersizeimg {
+    width: 40px;
 }
