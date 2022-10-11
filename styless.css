@@ -95,7 +95,7 @@ p {
 
 .title-submite {
     /*display: flex;*/
-    flex-direction: column;
+    /*flex-direction: column;*/
     justify-content: center;
     align-items: flex-start;
     padding: 44px;
@@ -114,7 +114,7 @@ p {
 
 h5 {
     width: 600px;
-    height: 20px;
+    height: 50px;
     margin: 0px;
 
     font-family: 'Inter';
@@ -132,15 +132,14 @@ h5 {
     flex-grow: 0;
 }
 
-.title-subite-form {
-    /*display: flex;*/
+.title-submite-form {
     flex-direction: column;
     align-items: flex-start;
     padding: 10px;
     gap: 8px;
 
-    width: 224px;
-    height: 54px;
+    width: 600px;
+    height: 100px;
 
 
     /* Inside auto layout */
@@ -151,9 +150,6 @@ h5 {
 }
 
 input {
-    /* Auto layout */
-
-    display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
@@ -162,13 +158,33 @@ input {
     width: 159px;
     height: 22px;
 
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
 }
 
-span { display: inline; }
+.title-submite-form-button {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 11px 24px;
+    gap: 8px;
+
+    width: 132px;
+    height: 58px;
+
+    background: #2D66EE;
+    border-radius: 8px;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.color-text-submite {
+    color: white;
+}
+
+.infoProduct {
+
+}
 
