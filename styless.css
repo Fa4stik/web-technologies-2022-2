@@ -61,7 +61,7 @@
 
 }
 
-h3 {
+.h3-header {
     width: 600px;
     height: 100px;
 
@@ -185,6 +185,58 @@ input {
 }
 
 .infoProduct {
+
+}
+
+.h3-infoProduct {
+    width: 600px;
+    height: 30px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 144%;
+
+    letter-spacing: 0.326451px;
+
+    color: #101828;
+}
+
+.p-infoProduct {
+    font-size: 20px;
+}
+
+.infoProduct-programm {
+    max-width: 60%;
+    width: 60%;
+}
+
+.ol-infoProduct {
+    list-style-type: none;
+    width: 300px;
+}
+
+.infoProduct-Langue {
+    width: 300px;
+    height: 20px;
+}
+
+.product {
+
+}
+
+.product-name {
+
+}
+
+.projectProud {
+
+}
+
+.projectProud-header {
+
+}
+
+.discus {
 
 }
 
