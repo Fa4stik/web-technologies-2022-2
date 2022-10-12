@@ -25,36 +25,44 @@
         </div>
         <div class="title-submite">
             <h5>Leave your contacts and we will call you back within 30 minutes</h5>
-            <div class="title-submite-form">
-                <label>
+            <div class="title-submite-form" style="display: grid">
+                <label style="grid-column: 1/2; display: grid">
                     Phone number
-                    <br>
                     <input maxlength="25" size="40" placeholder="You number" />
                 </label>
+
+                <label style="grid-column: 2/3; display: grid">
                     Full Name
                     <input maxlength="25" size="40" placeholder="You name" />
                 </label>
-                <label>
+
+                <label style="grid-column: 3/4; display: grid">
                     <button type="submit" class="title-submite-form-button">
-                       <span class="color-text-submite">Get consultation</span>
+                        <span class="color-text-submite">Get consultation</span>
                     </button>
                 </label>
             </div>
         </div>
     </div>
     <hr>
-    <div class="infoProduct">
-        <span class="infoProduct-programm">
+    <div class="infoProduct" style="display: flex">
+        <div class="left">
             <h3 class="h3-infoProduct">Full development cycle</h3>
             <p>We use proven technologies</p>
             <p class="p-infoProduct"><b>Web</b></p>
-            <p>PHP / Javascript / Node.JS / Web Socket / Socket.io / Vue.js/ Nuxt / MySQL / Laravel / GO lang / django / Python</p>
+            <p>
+                PHP / Javascript / Node.JS / Web Socket / Socket.io / Vue.js/ Nuxt /
+                MySQL / Laravel / GO lang / django / Python
+            </p>
             <p class="p-infoProduct"><b>Mobile</b></p>
-            <p>Swift / Kotlin / Alamofire / Firebase / CoreData / Room / Realm / Coroutine / RxJava / RxSwift / Unit Test / Navigation</p>
-        </span>
-        <span>
+            <p>
+                Swift / Kotlin / Alamofire / Firebase / CoreData / Room / Realm /
+                Coroutine / RxJava / RxSwift / Unit Test / Navigation
+            </p>
+        </div>
+        <div class="right">
             <ol class="ol-infoProduct">
-                <li>iOS  development</li>
+                <li>iOS development</li>
                 <li>Android development</li>
                 <li>Web development</li>
                 <li>UI/UX design</li>
@@ -62,7 +70,7 @@
                 <li>Launch</li>
                 <li>IT consulting</li>
             </ol>
-        </span>
+        </div>
     </div>
     <hr>
     <div class="product">
@@ -167,24 +175,29 @@
     <div class="userContacts">
         <h3 class="h3-header">Get the book for free by leaving your contacts</h3>
         <div class="userContacts-form">
-            <label>
-                Phone number
-                <br>
-                <input maxlength="25" size="40" placeholder="You number" />
-            </label>
-            <label>
-                Full Name
-                <input maxlength="25" size="40" placeholder="You name" />
-            </label>
-            <label>
-                Email
-                <input maxlength="25" size="40" placeholder="Email" />
-            </label>
-            <label>
-                <button type="submit" class="title-submite-form-button">
-                    <span class="color-text-submite">Get consultation</span>
-                </button>
-            </label>
+            <div class="title-submite-form" style="display: grid">
+                <label style="grid-column: 1/2; display: grid">
+                    Phone number
+                    <input maxlength="25" size="40" placeholder="You number" />
+                </label>
+
+                <label style="grid-column: 2/3; display: grid">
+                    Full Name
+                    <input maxlength="25" size="40" placeholder="You name" />
+                </label>
+
+                <label style="grid-column: 3/4; display: grid">
+                    Email
+                    <input maxlength="25" size="40" placeholder="Email" />
+                </label>
+
+                <label style="grid-column: 4/5; display: grid">
+                    <button type="submit" class="title-submite-form-button">
+                        <span class="color-text-submite">Get consultation</span>
+                    </button>
+                </label>
+
+            </div>
         </div>
     </div>
     <hr>
@@ -203,6 +216,7 @@
                     Large projects about 4-6 months.
                     To get a more accurate estimate of the project completion time, it is necessary to determine the main task of the application, think over its logic and functionality.</p>
             </details>
+            <br>
         </div>
     </div>
     <hr>
