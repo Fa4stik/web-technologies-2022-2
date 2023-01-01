@@ -3,238 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <title>hello world from Stepan</title>
-    <link rel="stylesheet" href="./styless.css">
+    <link rel="stylesheet" href="styles/styless.css">
 </head>
 <body>
-    <div class="header">
-        <span class="textitheader">IT WEBSITE</span>
-        <span class="textheader">Services</span>
-        <span class="textheader">Media</span>
-        <span class="textheader">Cases</span>
-        <span class="textheader">FAQ</span>
-        <span class="textheader">Contacts</span>
-        <img src="Phone_icon.png" alt="text" class="headersizeimg">
-        <span class="headercontacts">+7 (111) 111 111</span>
-        <span class="headercontacts">itcompany@gmail.com</span>
-    </div>
-    <hr>
-    <div class="title">
-        <div class="title-text">
-            <h3 class="h3-header">Development of mobile applications and web services of any complexity</h3>
-            <p>We create mobile applications for iOS, Android that transfer your business to mobile applications of your customers' devices</p>
+<div class="wrapper">
+    <div class="banner">
+        <div class="container">
+            <div class="header">
+                <div class="header__logo">
+                    <span>IT WEBSITE</span>
+                </div>
+                <nav class="header__nav">
+                    <div class="header__nav-item">
+                        <a href="#">Services</a>
+                    </div>
+                    <div class="header__nav-item">
+                        <a href="#">Media</a>
+                    </div>
+                    <div class="header__nav-item">
+                        <a href="#">Cases</a>
+                    </div>
+                    <div class="header__nav-item">
+                        <a href="#">FAQ</a>
+                    </div>
+                    <div class="header__nav-item">
+                        <a href="#">Contacts</a>
+                    </div>
+                </nav>
+                <div class="header__contacts">
+                    <div class="header__contacts_phoneLogo header__contacts_phone">
+                        <a href="tel: +7 (111) 111 111">+7 (111) 111 111</a>
+                    </div>
+                    <div class="header__contacts_phone">
+                        <a href="tel: +7 (111) 111 111">+7 (111) 111 111</a>
+                    </div>
+                    <div class="header__contacts_mailLogo header__contacts_mail">
+                        <a href="mailto: itcompany@gmail.com">itcompany@gmail.com</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="title-submite">
-            <h5>Leave your contacts and we will call you back within 30 minutes</h5>
-            <div class="title-submite-form" style="display: grid">
-                <label style="grid-column: 1/2; display: grid">
-                    Phone number
-                    <input maxlength="25" size="40" placeholder="You number" />
-                </label>
-
-                <label style="grid-column: 2/3; display: grid">
-                    Full Name
-                    <input maxlength="25" size="40" placeholder="You name" />
-                </label>
-
-                <label style="grid-column: 3/4; display: grid">
-                    <button type="submit" class="title-submite-form-button">
-                        <span class="color-text-submite">Get consultation</span>
+        <div class="banner-info container">
+            <div class="banner-info__wrapper">
+                <h1>Development of <span>mobile applications</span> and <span>web services</span> of any complexity</h1>
+                <p>We create mobile applications for iOS, Android that transfer your business to mobile applications of your
+                    customers' devices</p>
+            </div>
+            <div class="banner-info__form">
+                <h4>Leave your contacts and we will call you back within 30 minutes</h4>
+                <form class="feedbackForm">
+                    <div class="feedbackForm__text feedbackForm__text-icon">
+                        <label for="phoneNumber">Phone number</label>
+                        <input id="phoneNumber" type="text"/>
+                    </div>
+                    <div class="feedbackForm__text">
+                        <label for="fullName">Full name</label>
+                        <input id="fullName" type="text"/>
+                    </div>
+                    <button class="feedbackForm-button" type="submit">
+                        Get consultation
                     </button>
-                </label>
+                </form>
             </div>
         </div>
     </div>
-    <hr>
-    <div class="infoProduct" style="display: flex">
-        <div class="left">
-            <h3 class="h3-infoProduct">Full development cycle</h3>
-            <p>We use proven technologies</p>
-            <p class="p-infoProduct"><b>Web</b></p>
-            <p>
-                PHP / Javascript / Node.JS / Web Socket / Socket.io / Vue.js/ Nuxt /
-                MySQL / Laravel / GO lang / django / Python
-            </p>
-            <p class="p-infoProduct"><b>Mobile</b></p>
-            <p>
-                Swift / Kotlin / Alamofire / Firebase / CoreData / Room / Realm /
-                Coroutine / RxJava / RxSwift / Unit Test / Navigation
-            </p>
-        </div>
-        <div class="right">
-            <ol class="ol-infoProduct">
-                <li>iOS development</li>
-                <li>Android development</li>
-                <li>Web development</li>
-                <li>UI/UX design</li>
-                <li>Testing</li>
-                <li>Launch</li>
-                <li>IT consulting</li>
-            </ol>
-        </div>
+    <div class="main">
     </div>
-    <hr>
-    <div class="product">
-        <h3 class="h3-header">Developed more than 100 projects in 15 industries</h3>
-        <div class="product-name">
-            <ul>
-                <li>Social media</li>
-                <li>Fitness and sport</li>
-                <li>Bank</li>
-                <li>Game projects</li>
-                <li>Construction</li>
-                <li>Education</li>
-                <li>Auto, transport</li>
-                <li>Medicine, health</li>
-                <li>Restaurants, food delivery</li>
-                <li>Marketplaces</li>
-            </ul>
-        </div>
-    </div>
-    <hr>
-    <div class="projectProud">
-        <h3 class="h3-infoProduct">Projects we are proud of</h3>
-        <p>Our software development company is truly proud of the wonderful clients we have worked with. We enjoy a long-term partnership</p>
-        <div class="projectProud-header">
-            <button type="submit">
-                <span>I-teka</span>
-            </button>
-            <button type="submit">
-                <span>Dauletten</span>
-            </button>
-            <button type="submit">
-                <span>Guru Bosch</span>
-            </button>
-            <button type="submit">
-                <span>Santo</span>
-            </button>
-        </div>
-        <br>
-        <div>
-            <h5>I-teka</h5>
-            <p>The application is designed to search for drugs by availability in pharmacies in cities. During quarantine, the application helped many people,
-                which gives more value.</p>
-            <p>Business analysis / iOS / Android / QA / UI/UX Design</p>
-            <ul>
-                <li>Kazakhstan</li>
-                <li>Medicine</li>
-            </ul>
-        </div>
-    </div>
-    <hr>
-    <div class="discus">
-        <div class="discus-text">
-            <h3 class="h3-infoProduct">Let's discuss
-                Your project</h3>
-            <p>Let's figure out how to create an effective application,
-                its cost and terms of its development</p>
-        </div>
-        <div class="discus-form" style="display: grid">
-            <label style="grid-column: 1/2; display: grid">
-                Phone number
-                <input maxlength="25" size="40" placeholder="You number" />
-            </label>
-
-            <label style="grid-column: 2/20; display: grid">
-                Full Name
-                <input maxlength="25" size="40" placeholder="You name" />
-            </label>
-            <button type="submit" class="title-submite-form-button">
-                <span class="color-text-submite">Get consultation</span>
-            </button>
-        </div>
-    </div>
-    <hr>
-    <div class="application">
-        <h3 class="h3-infoProduct">Application Development Stages</h3>
-        <dl>
-            <dt>Analysis</dt>
-            <dd>We write technical specifications for development, taking into account the business processes and technologies of the customer and the needs of users.</dd>
-            <dt>Design</dt>
-            <dd>We adapt the customer's corporate identity to the platform guidelines. We draw convenient and understandable interfaces.</dd>
-            <dt>Development</dt>
-            <dd>We create an extensible architecture, write clean and stable code. We integrate with customer technologies.</dd>
-        </dl>
-    </div>
-    <hr>
-    <div class="team">
-        <div class="team-info">
-            <h3 class="h3-infoProduct">Our team</h3>
-            <p>Thousand is a full-cycle digital production company with its own product analytics, design, web and mobile development.</p>
-            <ul>
-                <li>27</li>
-                <li>team members</li>
-                <li>+100</li>
-                <li>projects</li>
-                <li>7 years</li>
-                <li>in IT sphere</li>
-            </ul>
-            <p>All the necessary specialists - from a designer to a tester - are on our staff. We hire the best specialists in the market. It's expensive but worth it</p>
-        </div>
-    </div>
-    <hr>
-    <div class="userContacts">
-        <h3 class="h3-header">Get the book for free by leaving your contacts</h3>
-        <div class="userContacts-form">
-            <div class="title-submite-form" style="display: grid">
-                <label style="grid-column: 1/2; display: grid">
-                    Phone number
-                    <input maxlength="25" size="40" placeholder="You number" />
-                </label>
-
-                <label style="grid-column: 2/3; display: grid">
-                    Full Name
-                    <input maxlength="25" size="40" placeholder="You name" />
-                </label>
-
-                <label style="grid-column: 3/4; display: grid">
-                    Email
-                    <input maxlength="25" size="40" placeholder="Email" />
-                </label>
-
-                <label style="grid-column: 4/5; display: grid">
-                    <button type="submit" class="title-submite-form-button">
-                        <span class="color-text-submite">Get consultation</span>
-                    </button>
-                </label>
-
+    <div class="footer">
+        <div class="container">
+            <div class="main-footer">
+                <div class="main-footer__logo">
+                    <span>IT WEBSITE</span>
+                </div>
+                <div class="main-footer__contacts">
+                    <div class="main-footer__contacts-phone-logo main-footer__item">
+                        <label class="main-footer__item-phone">Contact nums</label>
+                        <a href="tel:+7 (778) 395 90 26">+7 (778) 395 90 26</a>
+                    </div>
+                    <div class="main-footer__contacts-email-logo main-footer__item">
+                        <label class="main-footer__item-mail">Post</label>
+                        <a href="mailto:mail@mail.com">mail@mail.com</a>
+                    </div>
+                    <div class="main-footer__contacts-point-logo main-footer__item">
+                        <label class="main-footer__item-point">Adress</label>
+                        <a href="#">City city, steet st. 90</a>
+                    </div>
+                    <div class="main-footer__contacts-file-logo main-footer__item">
+                        <label class="main-footer__item-file">Leave a request</label>
+                        <a href="#">Leave a request</a>
+                    </div>
+                </div>
+                <div class="main-footer__quote-country-logo main-footer__quote">
+                    <label>We work throughout world</label>
+                </div>
             </div>
         </div>
     </div>
-    <hr>
-    <div class="faq">
-        <h3 class="h3-infoProduct">FAQ</h3>
-        <div class="faq-info">
-            <details>
-                <summary>What is the cost of a mobile application?</summary>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam eius labore quis repellat? Dolorem dolores facilis ipsum molestiae nemo omnis voluptates. Dolor dolorum odio optio quasi repellat sint ullam voluptatem!</p>
-            </details>
-            <details>
-                <summary>How long will development take?</summary>
-                <p>Development terms directly depend on the requirements for the mobile application, the characteristics of the company, as well as the wishes of the customer.</p>
-                <p>Average development time from start to finished application:
-                    Medium projects up to 3 months.
-                    Large projects about 4-6 months.
-                    To get a more accurate estimate of the project completion time, it is necessary to determine the main task of the application, think over its logic and functionality.</p>
-            </details>
-            <br>
-        </div>
-    </div>
-    <hr>
-    <div class="basement">
-        <h3>IT WEBSITE</h3>
-        <div class="basement-info">
-            <ul>
-                <li>Contact nums</li>
-                <li>+7 (778) 395 90 26</li>
-                <li>Post</li>
-                <li>mail@mail.com</li>
-                <li>Adress</li>
-                <li>City city, steet st. 90</li>
-                <li>Leave a request</li>
-                <li>Leave a request</li>
-            </ul>
-            <p>We work throughout world</p>
-        </div>
-    </div>
+</div>
 </body>
 </html>
