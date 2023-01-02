@@ -76,6 +76,11 @@ textarea:focus, input:focus {
   outline: none;
 }
 
+@media only screen and (max-width: 768px) {
+  .header__nav {
+    display: none;
+  }
+}
 html,
 body {
   height: 100%;
