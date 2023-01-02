@@ -1,27 +1,22 @@
 @font-face {
-    font-family: "Inter-ExtraBold";
-    src: local('Inter'), local('Inter ExtraBold'), local('Inter-ExtraBold'),
-        url("/static/fonts/Inter/Inter-ExtraBold.ttf") format('truetype');
-    font-weight: 400;
+  font-family: "Inter-ExtraBold";
+  src: local("Inter"), local("Inter ExtraBold"), local("Inter-ExtraBold"), url("/static/fonts/Inter/Inter-ExtraBold.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Inter-Light";
+  src: local("Inter"), local("Inter ExtraBold"), local("Inter-ExtraBold"), url("/static/fonts/Inter/Inter-Light.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "SourceSansPro-SemiBold";
+  src: local("Source Sans Pro"), local("SourceSansPro SemiBold"), local("SourceSansPro-SemiBold"), url("/static/fonts/SF Pro Text/SourceSansPro-SemiBold.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "SourceSansPro-Light";
+  src: local("Source Sans Pro"), local("SourceSansPro Light"), local("SourceSansPro-Light"), url("/static/fonts/SF Pro Text/SourceSansPro-Light.ttf") format("truetype");
+  font-weight: 400;
 }
 
-@font-face {
-    font-family: "Inter-Light";
-    src: local('Inter'), local('Inter ExtraBold'), local('Inter-ExtraBold'),
-    url("/static/fonts/Inter/Inter-Light.ttf") format('truetype');
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: "SourceSansPro-SemiBold";
-    src: local('Source Sans Pro'), local('SourceSansPro SemiBold'), local('SourceSansPro-SemiBold'),
-    url("/static/fonts/SF Pro Text/SourceSansPro-SemiBold.ttf") format('truetype');
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: "SourceSansPro-Light";
-    src: local('Source Sans Pro'), local('SourceSansPro Light'), local('SourceSansPro-Light'),
-    url("/static/fonts/SF Pro Text/SourceSansPro-Light.ttf") format('truetype');
-    font-weight: 400;
-}
+/*# sourceMappingURL=fonts.css.map */
