@@ -1,6 +1,5 @@
 @import "./fonts.scss";
 @import "./reset.scss";
-@import "./adaptive.scss";
 
 $bg-color-window: #F2F4F7;
 
@@ -93,7 +92,7 @@ body {
 
 .header__contacts_phoneLogo:before {
   content: "";
-  background-image: url("../static/Icon/smartphone_outline_24.svg");
+  background-image: url("../static/Icon/Header/smartphone_outline_24.svg");
   width: 24px;
   height: 24px;
   position: absolute;
@@ -124,7 +123,7 @@ body {
 
 .header__contacts_mailLogo:before {
   content: "";
-  background-image: url("../static/Icon/mail_outline_24.svg");
+  background-image: url("../static/Icon/Header/mail_outline_24.svg");
   width: 24px;
   height: 24px;
   position: absolute;
@@ -252,7 +251,7 @@ body {
 
 .feedbackForm__text-icon label:before {
   content: "";
-  background-image: url("../static/Icon/county-banner-logo.svg");
+  background-image: url("../static/Icon/Header/county-banner-logo.svg");
   width: 16px;
   height: 30px;
   position: absolute;
@@ -341,7 +340,7 @@ body {
 
 .main-footer__contacts-phone-logo:before {
   content: "";
-  background-image: url("../static/Icon/phone-footer-logo.svg");
+  background-image: url("../static/Icon/Footer/phone-footer-logo.svg");
   width: 14px;
   height: 20px;
   position: absolute;
@@ -351,7 +350,7 @@ body {
 
 .main-footer__contacts-email-logo:before {
   content: "";
-  background-image: url("../static/Icon/main-footer-logo.svg");
+  background-image: url("../static/Icon/Footer/main-footer-logo.svg");
   width: 20px;
   height: 16px;
   position: absolute;
@@ -361,7 +360,7 @@ body {
 
 .main-footer__contacts-point-logo:before {
   content: "";
-  background-image: url("../static/Icon/point-footer-logo.svg");
+  background-image: url("../static/Icon/Footer/point-footer-logo.svg");
   width: 16px;
   height: 20px;
   position: absolute;
@@ -371,7 +370,7 @@ body {
 
 .main-footer__contacts-file-logo:before {
   content: "";
-  background-image: url("../static/Icon/file-footer-logo.svg");
+  background-image: url("../static/Icon/Footer/file-footer-logo.svg");
   width: 17px;
   height: 20px;
   position: absolute;
@@ -411,7 +410,7 @@ body {
 
 .main-footer__quote-country-logo:before {
   content: "";
-  background-image: url("../static/Icon/country-footer-logo.svg");
+  background-image: url("../static/Icon/Footer/country-footer-logo.svg");
   width: 30px;
   height: 16px;
   position: absolute;
@@ -427,6 +426,8 @@ body {
   &__header {
     margin-bottom: 34px;
     max-width: 600px;
+    width: 100%;
+
     h1 {
       font-family: "Inter-ExtraBold";
       font-weight: 700;
@@ -508,7 +509,7 @@ body {
     ul {
       li {
         &:after {
-          content: url("../static/Icon/right-icon-main-logo.svg");
+          content: url("../static/Icon/Header/right-icon-main-logo.svg");
           position: relative;
           left: 10px;
         }

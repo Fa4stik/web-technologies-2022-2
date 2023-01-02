@@ -1,7 +1,119 @@
 @media only screen and (max-width: 768px) {
+  .container {
+    max-width: 705px;
+    width: 100%;
+    padding: 0 0;
+  }
+
+  .banner {
+    background-position-x: 446px;
+    background-position-y: -95px;
+    background-size: 70%;
+
+    &-info {
+      margin-top: 138px;
+
+      &__form {
+        width: 382px;
+        padding: 32px 32px;
+
+        .feedbackForm {
+          flex-direction: column;
+
+          &__text {
+            margin-bottom: 32px;
+          }
+
+          &-button {
+            width: 160px;
+            height: 100%;
+            padding: 11px 24px;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 18px;
+            color: #FFFFFF;
+          }
+        }
+
+        h4 {
+          width: 368px;
+        }
+      }
+
+      &__wrapper {
+        width: 488px;
+      }
+    }
+  }
+
   .header {
+    width: 700px;
+    padding: 30px 32px;
+    top: -16px;
+
+    &__menu {
+      display: flex;
+      flex-direction: column;
+
+      &-logo {
+        background-image: url("../static/Icon/Header/RectangleMenu.svg");
+        width: 59px;
+        height: 8px;
+        margin-bottom: 8px;
+
+        &:last-of-type {
+          margin-bottom: 0px;
+        }
+      }
+    }
+
+    &__logo {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 18px;
+      letter-spacing: -0.154px;
+    }
+
     &__nav {
       display: none;
+    }
+
+    &__contacts_phone {
+      display: none;
+    }
+
+    &__contacts_mailLogo:before {
+      top: 7px;
+    }
+
+    &__contacts_mail {
+      a {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.154px;
+      }
+    }
+  }
+
+  .main {
+
+    .development {
+
+      &-cycle {
+        margin-top: 32px;
+        margin-bottom: 131px;
+
+        .web-mobile__item {
+          ul {
+            width: 292px;
+          }
+        }
+      }
+
+      &-type {
+        margin: 50px 40px
+      }
     }
   }
 }
