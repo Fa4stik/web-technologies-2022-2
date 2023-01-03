@@ -335,7 +335,10 @@ body {
 }
 
 .footer {
-  padding: 48px 48px;
+  padding: 48px 108px;
+}
+.footer .footer-adaptive {
+  display: none;
 }
 
 .main {
@@ -489,6 +492,10 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.projects-products-adaptive {
+  display: none;
 }
 
 .development {
