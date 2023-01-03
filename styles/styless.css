@@ -96,9 +96,30 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 900px;
-  background-image: url("../static/Photo/bgPhoto.png");
-  background-repeat: no-repeat;
-  background-position: right -354px center;
+}
+
+@keyframes motionYUp {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
+.banner-bg {
+  position: relative;
+  overflow: hidden;
+}
+.banner-bg:before {
+  content: "";
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  height: 1083px;
+  background-image: url("../static/BG/column-left.webp");
+  background-repeat: repeat-y;
+  background-position: 851px 0;
+  animation: motionYUp 5s linear infinite;
 }
 
 .container {
