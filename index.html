@@ -2,9 +2,245 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>hello world from Stepan</title>
+    <link rel="stylesheet" href="styles/styless.css">
+    <link rel="stylesheet" href="styles/adaptive768.css">
+    <link rel="stylesheet" href="styles/adaptive425.css">
 </head>
 <body>
-
+<div class="content">
+    <header class="banner banner-bg-left banner-bg-right">
+        <div class="header">
+            <div class="header__menu">
+                <div class="header__menu-logo"></div>
+                <div class="header__menu-logo"></div>
+                <div class="header__menu-logo"></div>
+            </div>
+            <div class="header__logo">
+                <span>IT WEBSITE</span>
+            </div>
+            <nav class="header__nav">
+                <div class="header__nav-item">
+                    <a href="#">Services</a>
+                </div>
+                <div class="header__nav-item">
+                    <a href="#">Media</a>
+                </div>
+                <div class="header__nav-item">
+                    <a href="#">Cases</a>
+                </div>
+                <div class="header__nav-item">
+                    <a href="#">FAQ</a>
+                </div>
+                <div class="header__nav-item">
+                    <a href="#">Contacts</a>
+                </div>
+            </nav>
+            <div class="header__contacts">
+                <div class="header__contacts_phoneLogo header__contacts_phone">
+                    <a href="tel: +7 (111) 111 111">+7 (111) 111 111</a>
+                </div>
+                <div class="header__contacts_phone">
+                    <a href="tel: +7 (111) 111 111">+7 (111) 111 111</a>
+                </div>
+                <div class="header__contacts_mailLogo header__contacts_mail">
+                    <a href="mailto: itcompany@gmail.com">itcompany@gmail.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="banner-info">
+                <div class="banner-info__wrapper">
+                    <h1>Development of <span>mobile applications</span> and <span>web services</span> of any complexity</h1>
+                    <p>We create mobile applications for iOS, Android that transfer your business to mobile applications of your
+                        customers' devices</p>
+                </div>
+                <div class="banner-info__form">
+                    <h4>Leave your contacts and we will call you back within 30 minutes</h4>
+                    <form class="feedbackForm">
+                        <div class="feedbackForm__text feedbackForm__text-icon">
+                            <label for="phoneNumber">Phone number</label>
+                            <input id="phoneNumber" type="text"/>
+                        </div>
+                        <div class="feedbackForm__text">
+                            <label for="fullName">Full name</label>
+                            <input id="fullName" type="text"/>
+                        </div>
+                        <button class="feedbackForm-button" type="submit">
+                            Get consultation
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="development container">
+            <div class="development-cycle">
+                <div class="development-cycle__header">
+                    <h1>Full development cycle</h1>
+                    <p>We use proven technologies</p>
+                </div>
+                <div class="development-cycle__web-mobile">
+                    <div class="web-mobile__item">
+                        <h2>Web</h2>
+                        <ul>
+                            <li>PHP</li>
+                            <li>Javascript</li>
+                            <li>Node.JS</li>
+                            <li>Web Socket</li>
+                            <li>Socket.io</li>
+                            <li>Vue.js</li>
+                            <li>Nuxt</li>
+                            <li>MySQL</li>
+                            <li>Laravel</li>
+                            <li>GO lang</li>
+                            <li>django</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                    <div class="web-mobile__item">
+                        <h2>Mobile</h2>
+                        <ul>
+                            <li>Swift</li>
+                            <li>Kotlin</li>
+                            <li>Alamofire</li>
+                            <li>Firebase</li>
+                            <li>CoreData</li>
+                            <li>Room</li>
+                            <li>Realm</li>
+                            <li>Coroutine</li>
+                            <li>RxJava</li>
+                            <li>RxSwift</li>
+                            <li>Unit Test</li>
+                            <li>Navigation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="development-type">
+                <nav class="development-type__item">
+                    <ul>
+                        <li><a href="#">iOS  development</a></li>
+                        <li><a href="#">Android development</a></li>
+                        <li><a href="#">Web development</a></li>
+                        <li><a href="#">UI/UX design</a></li>
+                        <li><a href="#">Testing</a></li>
+                        <li><a href="#">Launch</a></li>
+                        <li><a href="#">IT consulting</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="projects">
+            <div class="container">
+                <h1>Developed more than <span>100</span> projects in <span>15</span> industries</h1>
+                <nav class="projects-products-adaptive">
+                    <ul class="products-adaptive__column-1">
+                        <li>Social media</li>
+                        <li>Fitness and sport</li>
+                        <li>Bank</li>
+                        <li>Construction</li>
+                        <li>Game projects</li>
+                        <li>Education</li>
+                        <li>Auto, transport</li>
+                        <li>Medicine, health</li>
+                    </ul>
+                    <ul class="products-adaptive__column-2">
+                        <li>Restaurants, food delivery</li>
+                        <li>Marketplaces</li>
+                        <li>AR technology</li>
+                        <li>TV series</li>
+                        <li>Startups</li>
+                        <li>Religion</li>
+                        <li>Online cources</li>
+                    </ul>
+                </nav>
+                <nav class="projects-products">
+                    <ul class="products__column-1">
+                        <li>Social media</li>
+                        <li>Fitness and sport</li>
+                        <li>Bank</li>
+                        <li>Construction</li>
+                        <li>Game projects</li>
+                    </ul>
+                    <ul class="products__column-2">
+                        <li>Education</li>
+                        <li>Auto, transport</li>
+                        <li>Medicine, health</li>
+                        <li>Restaurants, food delivery</li>
+                        <li>Marketplaces</li>
+                    </ul>
+                    <ul class="products__column-3">
+                        <li>AR technology</li>
+                        <li>TV series</li>
+                        <li>Startups</li>
+                        <li>Religion</li>
+                        <li>Online cources</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-adaptive">
+            <div class="main-footer">
+                <div class="main-footer__logo">
+                    <span>IT WEBSITE</span>
+                </div>
+                <div class="main-footer__contacts">
+                    <div class="main-footer__contacts-phone-logo main-footer__item">
+                        <label class="main-footer__item-phone">Contact nums</label>
+                        <a href="tel:+7 (778) 395 90 26">+7 (778) 395 90 26</a>
+                    </div>
+                    <div class="main-footer__contacts-email-logo main-footer__item">
+                        <label class="main-footer__item-mail">Post</label>
+                        <a href="mailto:mail@mail.com">mail@mail.com</a>
+                    </div>
+                    <div class="main-footer__contacts-point-logo main-footer__item">
+                        <label class="main-footer__item-point">Adress</label>
+                        <a href="#">City city, steet st. 90</a>
+                    </div>
+                    <div class="main-footer__contacts-file-logo main-footer__item">
+                        <label class="main-footer__item-file">Leave a request</label>
+                        <a href="#">Leave a request</a>
+                    </div>
+                </div>
+                <div class="main-footer__quote-country-logo main-footer__quote">
+                    <label>We work throughout world</label>
+                </div>
+            </div>
+        </div>
+        <div class="footer-default">
+            <div class="main-footer">
+                <div class="main-footer__logo">
+                    <span>IT WEBSITE</span>
+                </div>
+                <div class="main-footer__contacts">
+                    <div class="main-footer__contacts-phone-logo main-footer__item">
+                        <label class="main-footer__item-phone">Contact nums</label>
+                        <a href="tel:+7 (778) 395 90 26">+7 (778) 395 90 26</a>
+                    </div>
+                    <div class="main-footer__contacts-email-logo main-footer__item">
+                        <label class="main-footer__item-mail">Post</label>
+                        <a href="mailto:mail@mail.com">mail@mail.com</a>
+                    </div>
+                    <div class="main-footer__contacts-point-logo main-footer__item">
+                        <label class="main-footer__item-point">Adress</label>
+                        <a href="#">City city, steet st. 90</a>
+                    </div>
+                    <div class="main-footer__contacts-file-logo main-footer__item">
+                        <label class="main-footer__item-file">Leave a request</label>
+                        <a href="#">Leave a request</a>
+                    </div>
+                </div>
+                <div class="main-footer__quote-country-logo main-footer__quote">
+                    <label>We work throughout world</label>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
 </body>
 </html>
