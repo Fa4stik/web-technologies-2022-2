@@ -334,6 +334,9 @@ body {
   height: 58px;
   cursor: pointer;
 }
+.feedbackForm-button:hover {
+  background: rgba(45, 102, 238, 0.6);
+}
 
 .feedbackForm__text {
   display: flex;
@@ -873,10 +876,16 @@ body {
   background: #2D66EE;
   border-radius: 8px;
 }
+.partnership__partners button:hover {
+  background: rgba(45, 102, 238, 0.6);
+}
 .partnership__info {
   background-image: url("../static/Icon/Partners/i-teka.svg");
   background-repeat: no-repeat;
   background-position: 530px 26px;
+}
+.partnership__info__header-button {
+  display: none;
 }
 .partnership__info h2 {
   font-weight: 700;
@@ -977,6 +986,9 @@ body {
   height: 40px;
   background-repeat: no-repeat;
 }
+.partnership__info__button-project {
+  display: none;
+}
 
 .youproject {
   position: relative;
@@ -1076,6 +1088,9 @@ body {
   text-align: center;
   letter-spacing: -0.154px;
   color: #FFFFFF;
+}
+.youproject button:hover {
+  background: rgba(45, 102, 238, 0.6);
 }
 
 .application h1 {
@@ -1181,6 +1196,9 @@ body {
 .team__info {
   padding-right: 30px;
 }
+.team__info__video {
+  display: none;
+}
 .team__info h1 {
   font-weight: 700;
   font-size: 36px;
@@ -1234,6 +1252,12 @@ body {
 .freebook .container {
   display: flex;
 }
+.freebook__text {
+  display: none;
+}
+.freebook__info-BG__image {
+  display: none;
+}
 .freebook__feedback h1 {
   font-weight: 700;
   font-size: 36px;
@@ -1242,9 +1266,13 @@ body {
   color: #FCFCFD;
   margin-bottom: 40px;
 }
+.freebook__main {
+  display: flex;
+}
 .freebook__form {
   padding: 24px;
   display: flex;
+  width: 76%;
   flex-direction: column;
   align-items: flex-end;
   background: #FFFFFF;
@@ -1262,6 +1290,9 @@ body {
   text-align: center;
   letter-spacing: -0.154px;
   color: #FFFFFF;
+}
+.freebook__form button:hover {
+  background: rgba(45, 102, 238, 0.6);
 }
 .freebook__input-form-phone-name {
   display: flex;
@@ -1326,6 +1357,7 @@ body {
 .faq .container {
   display: flex;
   flex-direction: column;
+  padding-bottom: 0;
 }
 .faq h1 {
   font-weight: 700;
@@ -1334,6 +1366,84 @@ body {
   letter-spacing: 0.326451px;
   color: #101828;
   margin-bottom: 40px;
+}
+.faq__block {
+  display: flex;
+}
+.faq__column:first-of-type {
+  margin-right: 24px;
+}
+.faq__column:first-of-type .faq__item button {
+  border: none;
+  width: 60px;
+  height: 60px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 100px;
+  background-image: url("../static/Icon/FAQ/plus.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.faq__column:last-of-type .faq__item:first-of-type {
+  align-items: flex-start;
+}
+.faq__column:last-of-type .faq__item:first-of-type button {
+  border: none;
+  width: 60px;
+  height: 60px;
+  background: #FFFFFF;
+  border-radius: 100px;
+  background-image: url("../static/Icon/FAQ/close.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.faq__column:last-of-type .faq__item:last-of-type button {
+  border: none;
+  width: 60px;
+  height: 60px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 100px;
+  background-image: url("../static/Icon/FAQ/plus.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.faq__item {
+  width: 565px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid #D0D5DD;
+}
+.faq__item-text h2 {
+  margin-bottom: 24px;
+}
+.faq__item-text p {
+  width: 495px;
+}
+.faq__item-text p:first-of-type {
+  margin-bottom: 20px;
+}
+.faq__item:first-of-type {
+  border-top: 0.5px solid #D0D5DD;
+}
+.faq__item h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.38px;
+  color: #101828;
+}
+.faq__item p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+  color: #101828;
+}
+.faq__item p span {
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=styless.css.map */

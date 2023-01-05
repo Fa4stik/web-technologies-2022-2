@@ -2,6 +2,9 @@
 @import "./reset.scss";
 
 $bg-color-window: #F2F4F7;
+$main-color-site: #2D66EE;
+$button-opacity-color: rgba(45, 102, 238, 0.6);
+$text-span-color: #306FF5;
 
 html,
 body {
@@ -105,7 +108,7 @@ body {
 .header__logo {
   font-family: "Inter-ExtraBold";
   font-weight: bold;
-  color: #2D66EE;
+  color: $main-color-site;
   display: flex;
   align-items: center;
 }
@@ -165,7 +168,7 @@ body {
   font-size: 14px;
   line-height: 18px;
   letter-spacing: -0.154px;
-  color: #2D66EE;
+  color: $main-color-site;
 }
 
 .header__contacts_mailLogo {
@@ -196,7 +199,7 @@ body {
   font-size: 14px;
   line-height: 18px;
   letter-spacing: -0.154px;
-  color: #2D66EE;
+  color: $main-color-site;
 }
 
 .banner-info {
@@ -219,7 +222,7 @@ body {
 }
 
 .banner-info__wrapper span {
-  color: #306FF5;
+  color: $text-span-color;
 }
 
 .banner-info__wrapper p {
@@ -256,7 +259,7 @@ body {
 
 .feedbackForm-button {
   padding: 11px 24px;
-  background: #2D66EE;
+  background: $main-color-site;
   border-radius: 8px;
   border: none;
   text-align: left;
@@ -264,6 +267,10 @@ body {
   width: 132px;
   height: 58px;
   cursor: pointer;
+
+  &:hover {
+    background: $button-opacity-color;
+  }
 }
 
 .feedbackForm__text {
@@ -537,7 +544,7 @@ body {
   li {
     &:after {
       content: '/';
-      color: #2D66EE;
+      color: $main-color-site;
       margin: 0 4px;
     }
 
@@ -563,7 +570,7 @@ body {
 
       &:hover {
         font-weight: 600;
-        border-bottom: 1px solid #2D66EE;
+        border-bottom: 1px solid $main-color-site;
       }
     }
 
@@ -595,7 +602,7 @@ body {
     margin-bottom: 40px;
 
     span {
-      color: #306FF5;
+      color: $text-span-color;
     }
   }
 
@@ -865,7 +872,7 @@ body {
             color: #101828;
 
             &:hover {
-              border-bottom: 2px solid #2D66EE;
+              border-bottom: 2px solid $main-color-site;
             }
           }
         }
@@ -880,12 +887,22 @@ body {
       line-height: 18px;
       letter-spacing: -0.154px;
       color: #FFFFFF;
-      background: #2D66EE;
+      background: $main-color-site;
       border-radius: 8px;
+
+      &:hover {
+        background: $button-opacity-color;
+      }
     }
   }
 
   &__info {
+    &__header {
+      &-button {
+        display: none;
+      }
+    }
+
     h2 {
       font-weight: 700;
       font-size: 36px;
@@ -915,7 +932,7 @@ body {
           &:after {
             content: "/";
             margin: 0 4px;
-            color: #2D66EE;
+            color: $main-color-site;
           }
 
           &:last-of-type {
@@ -1013,6 +1030,10 @@ body {
         height: 40px;
         background-repeat: no-repeat;
       }
+    }
+
+    &__button-project {
+      display: none;
     }
 
     background-image: url("../static/Icon/Partners/i-teka.svg");
@@ -1129,7 +1150,7 @@ body {
   button {
     border: none;
     padding: 11px 24px;
-    background: #2D66EE;
+    background: $main-color-site;
     border-radius: 8px;
     font-weight: 600;
     font-size: 14px;
@@ -1137,6 +1158,10 @@ body {
     text-align: center;
     letter-spacing: -0.154px;
     color: #FFFFFF;
+
+    &:hover {
+      background: $button-opacity-color;
+    }
   }
 }
 
@@ -1342,6 +1367,10 @@ body {
       right: 30px;
     }
 
+    &__video {
+      display: none;
+    }
+
     h1 {
       font-weight: 700;
       font-size: 36px;
@@ -1404,6 +1433,16 @@ body {
     display: flex;
   }
 
+  &__text {
+    display: none;
+  }
+
+  &__info-BG {
+    &__image {
+      display: none;
+    }
+  }
+
   &__feedback {
     h1 {
       font-weight: 700;
@@ -1415,9 +1454,14 @@ body {
     }
   }
 
+  &__main {
+    display: flex;
+  }
+
   &__form {
     padding: 24px;
     display: flex;
+    width: 76%;
     flex-direction: column;
     align-items: flex-end;
     background: #FFFFFF;
@@ -1427,7 +1471,7 @@ body {
     button {
       border: none;
       padding: 11px 24px;
-      background: #2D66EE;
+      background: $main-color-site;
       border-radius: 8px;
       font-weight: 600;
       font-size: 14px;
@@ -1435,6 +1479,10 @@ body {
       text-align: center;
       letter-spacing: -0.154px;
       color: #FFFFFF;
+
+      &:hover {
+        background: $button-opacity-color;
+      }
     }
   }
 
@@ -1518,6 +1566,7 @@ body {
   .container {
     display: flex;
     flex-direction: column;
+    padding-bottom: 0;
   }
 
   h1 {
@@ -1527,5 +1576,115 @@ body {
     letter-spacing: 0.326451px;
     color: #101828;
     margin-bottom: 40px;
+  }
+
+  &__block {
+    display: flex;
+  }
+
+  &__column {
+    &:first-of-type {
+      margin-right: 24px;
+
+      .faq__item {
+        button {
+          border: none;
+          width: 60px;
+          height: 60px;
+          background: #FFFFFF;
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+          border-radius: 100px;
+          background-image: url("../static/Icon/FAQ/plus.svg");
+          background-repeat: no-repeat;
+          background-position: center center;
+        }
+      }
+    }
+
+    &:last-of-type {
+      .faq__item {
+        &:first-of-type {
+          align-items: flex-start;
+
+          button {
+            border: none;
+            width: 60px;
+            height: 60px;
+            background: #FFFFFF;
+            border-radius: 100px;
+            background-image: url("../static/Icon/FAQ/close.svg");
+            background-repeat: no-repeat;
+            background-position: center center;
+          }
+        }
+
+        &:last-of-type {
+          button {
+            border: none;
+            width: 60px;
+            height: 60px;
+            background: #FFFFFF;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+            border-radius: 100px;
+            background-image: url("../static/Icon/FAQ/plus.svg");
+            background-repeat: no-repeat;
+            background-position: center center;
+          }
+        }
+      }
+    }
+  }
+
+  &__item {
+    width: 565px;
+    padding: 20px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: {
+      bottom: 0.5px solid #D0D5DD;
+    }
+
+    &-text {
+      h2 {
+        margin-bottom: 24px;
+      }
+
+      p {
+        width: 495px;
+
+        &:first-of-type {
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    &:first-of-type {
+      border: {
+        top: 0.5px solid #D0D5DD;
+      }
+    }
+
+    h2 {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: 0.38px;
+      color: #101828;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+      letter-spacing: -0.24px;
+      color: #101828;
+
+      span {
+        font-size: 18px;
+      }
+    }
   }
 }

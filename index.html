@@ -203,10 +203,13 @@
                             <li><a href="#">Europharma</a></li>
                         </ul>
                     </nav>
-                    <button>View 100 more projects</button>
+                    <button class="partnership__partners__button" type="submit">View 100 more projects</button>
                 </div>
                 <div class="partnership__info">
-                    <h2>I-teka</h2>
+                    <div class="partnership__info__header">
+                        <h2>I-teka</h2>
+                        <button class="partnership__info__header-button">View 100 more projects</button>
+                    </div>
                     <p>The application is designed to search for drugs by availability in pharmacies in cities. During
                         quarantine, the application helped many people,
                         which gives more value.</p>
@@ -239,6 +242,9 @@
                         <div class="AppStore"></div>
                         <div class="GooglePlay"></div>
                     </div>
+                    <div class="partnership__info__button-project">
+                        <button>View 100 more projects</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -262,7 +268,7 @@
                                 <input id="fullNameYP" type="text">
                             </div>
                         </div>
-                        <button>Discuss the project</button>
+                        <button type="submit">Discuss the project</button>
                     </form>
                 </div>
             </div>
@@ -311,25 +317,32 @@
         <div class="team">
             <div class="container">
                 <div class="team__info">
-                    <h1>Our team</h1>
-                    <p>Thousand is a full-cycle digital production company with its own product analytics, design, web and
-                        mobile development.</p>
-                    <div class="team__marker">
-                        <div>
-                            <label>28</label>
-                            <p>team members</p>
-                        </div>
-                        <div>
-                            <label>+100</label>
-                            <p>projects</p>
-                        </div>
-                        <div>
-                            <label>7 years</label>
-                            <p>in IT sphere</p>
-                        </div>
+                    <div class="team__header">
+                        <h1>Our team</h1>
+                        <p>Thousand is a full-cycle digital production company with its own product analytics, design, web and
+                            mobile development.</p>
                     </div>
-                    <p>All the necessary specialists - from a designer to a tester - are on our staff. We hire the best
-                        specialists in the market. It's expensive but worth it</p>
+                    <div class="team__info__video">
+
+                    </div>
+                    <div class="team__footer">
+                        <div class="team__marker">
+                            <div class="team__marker__info">
+                                <label>28</label>
+                                <p>team members</p>
+                            </div>
+                            <div class="team__marker__info">
+                                <label>+100</label>
+                                <p>projects</p>
+                            </div>
+                            <div class="team__marker__info">
+                                <label>7 years</label>
+                                <p>in IT sphere</p>
+                            </div>
+                        </div>
+                        <p>All the necessary specialists - from a designer to a tester - are on our staff. We hire the best
+                            specialists in the market. It's expensive but worth it</p>
+                    </div>
                 </div>
                 <div class="team__video">
 
@@ -338,56 +351,77 @@
         </div>
         <div class="freebook">
             <div class="container">
-                <div class="freebook__feedback">
+                <div class="freebook__text">
                     <h1>Get the book for free by leaving your contacts</h1>
-                    <form class="freebook__form">
-                        <div class="freebook__input-form">
-                            <div class="freebook__input-form-phone-name">
-                                <div class="freebook__input-form__item freebook__input-form__item-icon">
-                                    <label for="phoneNumberFB">Phone number</label>
-                                    <input id="phoneNumberFB" type="text">
+                </div>
+                <div class="freebook__main">
+                    <div class="freebook__feedback">
+                        <div class="freebook__feedback__text">
+                            <h1>Get the book for free by leaving your contacts</h1>
+                        </div>
+                        <div class="freebook__info-BG">
+                            <form class="freebook__form">
+                                <div class="freebook__input-form">
+                                    <div class="freebook__input-form-phone-name">
+                                        <div class="freebook__input-form__item freebook__input-form__item-icon">
+                                            <label for="phoneNumberFB">Phone number</label>
+                                            <input id="phoneNumberFB" type="text">
+                                        </div>
+                                        <div class="freebook__input-form__item">
+                                            <label for="fullNameFB">Full name</label>
+                                            <input id="fullNameFB" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="freebook__input-form-email">
+                                        <div class="freebook__input-form__item-e">
+                                            <label for="emailFB">email</label>
+                                            <input id="emailFB" type="text">
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="freebook__input-form__item">
-                                    <label for="fullNameFB">Full name</label>
-                                    <input id="fullNameFB" type="text">
-                                </div>
-                            </div>
-                            <div class="freebook__input-form-email">
-                                <div class="freebook__input-form__item-e">
-                                    <label for="emailFB">email</label>
-                                    <input id="emailFB" type="text">
-                                </div>
+                                <button type="submit">Send me ebook to my mail</button>
+                            </form>
+                            <div class="freebook__info-BG__image">
+
                             </div>
                         </div>
-                        <button>Send me ebook to my mail</button>
-                    </form>
-                </div>
-                <div class="freebook__image">
+                    </div>
+                    <div class="freebook__image">
 
+                    </div>
                 </div>
             </div>
         </div>
         <div class="faq">
             <div class="container">
                 <h1>FAQ</h1>
-                <div>
-                    <div>
-                        <h2>What is the cost of a mobile application?</h2>
+                <div class="faq__block">
+                    <div class="faq__column">
+                        <div class="faq__item">
+                            <h2>What is the cost of a mobile application?</h2>
+                            <button type="submit"></button>
+                        </div>
+                        <div class="faq__item">
+                            <h2>Do you provide a guarantee for the mobile application?</h2>
+                            <button type="submit"></button>
+                        </div>
                     </div>
-                    <div>
-                        <h2>How long will development take?</h2>
-                        <p>Development terms directly depend on the requirements for the mobile application, the characteristics of the company, as well as the wishes of the customer.
-
-                            Average development time from start to finished application:
-                            Medium projects up to 3 months.
-                            Large projects about 4-6 months.
-                            To get a more accurate estimate of the project completion time, it is necessary to determine the main task of the application, think over its logic and functionality.</p>
-                    </div>
-                    <div>
-                        <h2>Do you provide a guarantee for the mobile application?</h2>
-                    </div>
-                    <div>
-                        <h2>I will not tell my idea, do you guarantee confidentiality?</h2>
+                    <div class="faq__column">
+                        <div class="faq__item">
+                            <div class="faq__item-text">
+                                <h2>How long will development take?</h2>
+                                <p>Development terms directly depend on the requirements for the mobile application, the characteristics of the company, as well as the wishes of the customer.</p>
+                                <p>Average development time from start to finished application:
+                                    Medium projects up to <span>3 months.</span>
+                                    Large projects about <span>4-6 months.</span>
+                                    To get a more accurate estimate of the project completion time, it is necessary to determine the main task of the application, think over its logic and functionality.</p>
+                            </div>
+                            <button type="submit"></button>
+                        </div>
+                        <div class="faq__item">
+                            <h2>I will not tell my idea, do you guarantee confidentiality?</h2>
+                            <button type="submit"></button>
+                        </div>
                     </div>
                 </div>
             </div>
