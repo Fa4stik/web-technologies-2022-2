@@ -107,3 +107,5 @@
 //
 // const result4 = slidingWindow(["собака","гоночная машина","машина"]);
 // console.log(result4); // na
+
+//
