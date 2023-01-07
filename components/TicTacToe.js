@@ -7,7 +7,7 @@ export const TicTacToe = {
 
   // Булевое значение
   // true если текущий ход у X
-  // false если текущий ход у O
+  // false если текущий ход у O.
   isXTurn: true,
 
   boxes: [],
