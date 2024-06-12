@@ -1,0 +1,691 @@
+@media only screen and (max-width: 768px) {
+  $main-color: #2D66EE;
+  $hover-color-button: rgba(45, 102, 238, 0.6);
+
+  @keyframes motionYUp {
+    from {
+      background-size: 33%;
+      background-position: 480px 0;
+    }
+    to {
+      background-size: 33%;
+      background-position: 480px 223.5%;
+    }
+  }
+
+  @keyframes motionYDown {
+    from {
+      background-size: 18%;
+      background-position: 682px 0;
+    }
+    to {
+      background-size: 18%;
+      background-position: 682px -223.5%;
+    }
+  }
+
+  .banner-bg-left {
+    &:before {
+      height: 1157px;
+    }
+  }
+
+  .container {
+    max-width: 705px;
+    width: 100%;
+    padding: 0 0;
+  }
+
+  .banner {
+    background-position-x: 446px;
+    background-position-y: -95px;
+    background-size: 70%;
+
+    &-info {
+      margin-top: 138px;
+
+      &__form {
+        width: 382px;
+        padding: 32px 32px;
+
+        .feedbackForm {
+          flex-direction: column;
+
+          &__text {
+            margin-bottom: 32px;
+          }
+
+          &-button {
+            width: 160px;
+            height: 100%;
+            padding: 11px 24px;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 18px;
+            color: #FFFFFF;
+          }
+        }
+
+        h4 {
+          width: 368px;
+        }
+      }
+
+      &__wrapper {
+        width: 453px;
+
+        h1 {
+          font-size: 33px;
+        }
+      }
+    }
+  }
+
+  .header {
+    width: 690px;
+    padding: 30px 32px;
+    top: -16px;
+
+    &__menu {
+      display: flex;
+      flex-direction: column;
+
+      &-logo {
+        background-image: url("../static/Icon/Header/RectangleMenu.svg");
+        width: 59px;
+        height: 8px;
+        margin-bottom: 8px;
+
+        &:last-of-type {
+          margin-bottom: 0px;
+        }
+      }
+    }
+
+    &__logo {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 18px;
+      letter-spacing: -0.154px;
+    }
+
+    &__nav {
+      display: none;
+    }
+
+    &__contacts_phone {
+      display: none;
+    }
+
+    &__contacts_mailLogo:before {
+      top: 7px;
+    }
+
+    &__contacts_mail {
+      a {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.154px;
+      }
+    }
+  }
+
+  .projects {
+    padding: 45px 0 0 0;
+  }
+
+  .main {
+
+    .projects-products {
+      display: none;
+    }
+
+    .projects-products-adaptive {
+      display: flex;
+
+      ul {
+        margin-bottom: 32px;
+      }
+
+      .products-adaptive__column-1 {
+        width: 350px;
+        li {
+          &:nth-of-type(1) {
+            display: flex;
+            align-items: center;
+
+            &:before {
+              content: "";
+              background-image: url("../static/Icon/Products/SocialMedia.svg");
+              height: 53px;
+              width: 53px;
+              margin-right: 12px;
+              position: relative;
+              top: 2px;
+            }
+          }
+
+          &:nth-of-type(2) {
+            display: flex;
+            align-items: center;
+            &:before {
+              content: "";
+              background-image: url("../static/Icon/Products/FitnessAndSport.svg");
+              height: 53px;
+              width: 53px;
+              margin-right: 12px;
+              position: relative;
+              top: 2px;
+            }
+          }
+
+          &:nth-of-type(3) {
+            display: flex;
+            align-items: center;
+            &:before {
+              content: "";
+              background-image: url("../static/Icon/Products/Bank.svg");
+              height: 53px;
+              width: 53px;
+              margin-right: 12px;
+              position: relative;
+              top: 2px;
+            }
+          }
+
+          &:nth-of-type(4) {
+            display: flex;
+            align-items: center;
+            &:before {
+              content: "";
+              background-image: url("../static/Icon/Products/Constructor.svg");
+              height: 53px;
+              width: 53px;
+              margin-right: 12px;
+              position: relative;
+              top: 2px;
+            }
+          }
+
+          &:nth-of-type(5) {
+            display: flex;
+            align-items: center;
+            &:before {
+              content: "";
+              background-image: url("../static/Icon/Products/GameProject.svg");
+              height: 53px;
+              width: 53px;
+              margin-right: 12px;
+              position: relative;
+              top: 2px;
+            }
+          }
+
+          &:nth-of-type(6) {
+            display: flex;
+            align-items: center;
+            &:before {
+              content: "";
+              background-image: url("../static/Icon/Products/Education.svg");
+              height: 53px;
+              width: 53px;
+              margin-right: 12px;
+              position: relative;
+              top: 2px;
+            }
+          }
+
+          &:nth-of-type(7) {
+            display: flex;
+            align-items: center;
+            &:before {
+              content: "";
+              background-image: url("../static/Icon/Products/AutoTransport.svg");
+              height: 53px;
+              width: 53px;
+              margin-right: 12px;
+              position: relative;
+              top: 2px;
+            }
+          }
+
+          &:nth-of-type(8) {
+            display: flex;
+            align-items: center;
+            &:before {
+              content: "";
+              background-image: url("../static/Icon/Products/MedicineHealth.svg");
+              height: 53px;
+              width: 53px;
+              margin-right: 12px;
+              position: relative;
+              top: 2px;
+            }
+          }
+        }
+      }
+
+      .products-adaptive__column-2 {
+        li {
+
+          &:nth-of-type(1) {
+            display: flex;
+            align-items: center;
+            &:before {
+              content: "";
+              background-image: url("../static/Icon/Products/Food.svg");
+              height: 53px;
+              width: 53px;
+              margin-right: 12px;
+              position: relative;
+              top: 2px;
+            }
+          }
+
+          &:nth-of-type(2) {
+            display: flex;
+            align-items: center;
+            &:before {
+              content: "";
+              background-image: url("../static/Icon/Products/MarketPlace.svg");
+              height: 53px;
+              width: 53px;
+              margin-right: 12px;
+              position: relative;
+              top: 2px;
+            }
+          }
+
+          &:nth-of-type(3) {
+            display: flex;
+            align-items: center;
+            &:before {
+              content: "";
+              background-image: url("../static/Icon/Products/ArTechonology.svg");
+              height: 53px;
+              width: 53px;
+              margin-right: 12px;
+              position: relative;
+              top: 2px;
+            }
+          }
+
+          &:nth-of-type(4) {
+            display: flex;
+            align-items: center;
+            &:before {
+              content: "";
+              background-image: url("../static/Icon/Products/TV.svg");
+              height: 53px;
+              width: 53px;
+              margin-right: 12px;
+              position: relative;
+              top: 2px;
+            }
+          }
+
+          &:nth-of-type(5) {
+            display: flex;
+            align-items: center;
+            &:before {
+              content: "";
+              background-image: url("../static/Icon/Products/Startups.svg");
+              height: 53px;
+              width: 53px;
+              margin-right: 12px;
+              position: relative;
+              top: 2px;
+            }
+          }
+
+          &:nth-of-type(6) {
+            display: flex;
+            align-items: center;
+            &:before {
+              content: "";
+              background-image: url("../static/Icon/Products/Religion.svg");
+              height: 53px;
+              width: 53px;
+              margin-right: 12px;
+              position: relative;
+              top: 2px;
+            }
+          }
+
+          &:nth-of-type(7) {
+            display: flex;
+            align-items: center;
+            &:before {
+              content: "";
+              background-image: url("../static/Icon/Products/Online.svg");
+              height: 53px;
+              width: 53px;
+              margin-right: 12px;
+              position: relative;
+              top: 2px;
+            }
+          }
+        }
+      }
+    }
+
+    .development {
+
+      &-cycle {
+        margin-top: 32px;
+        margin-bottom: 32px;
+
+        .web-mobile__item {
+          ul {
+            width: 292px;
+          }
+        }
+      }
+
+      &-type {
+        margin: 50px 40px
+      }
+    }
+  }
+
+  .footer {
+    padding: 0 0;
+    .footer-adaptive {
+      display: flex;
+    }
+
+    .footer-default {
+      display: none;
+    }
+  }
+
+  .main-footer {
+    width: 100%;
+
+    &__contacts {
+
+    }
+
+    &__item {
+      min-width: 100px;
+      margin-right: 50px;
+
+      &:last-of-type {
+        margin-right: 0px;
+      }
+
+      a {
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: -0.408px;
+        color: #FFFFFF;
+      }
+
+      label {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.154px;
+        color: #98A2B3;
+      }
+    }
+  }
+
+  .partnership {
+    margin-top: 0;
+
+    .container {
+      padding-bottom: 45px;
+    }
+
+    &__partners {
+      flex-direction: column;
+      align-items: start;
+
+      nav {
+        ul {
+          li {
+            margin-right: 0;
+            margin-left: 20px;
+          }
+        }
+      }
+
+      &__button {
+        display: none;
+      }
+    }
+
+    &__info {
+      background: {
+        size: 70%;
+        position: 226px 120px;
+      }
+
+      &__mark {
+        margin-bottom: 0;
+      }
+
+      p {
+        width: 387px;
+      }
+
+      ul {
+        li {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 22px;
+          letter-spacing: -0.408px;
+          color: #475467;
+        }
+      }
+
+      &__services {
+        margin-bottom: 32px;
+      }
+
+      &__point {
+        margin-bottom: 32px;
+      }
+
+      &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+
+        &-button {
+          display: flex;
+          border: none;
+          padding: 11px 24px;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 18px;
+          letter-spacing: -0.154px;
+          color: #FFFFFF;
+          background: $main-color;
+          border-radius: 8px;
+
+          &:hover {
+            background: $hover-color-button;
+          }
+        }
+      }
+    }
+  }
+
+  .youproject {
+    .container {
+      padding: {
+        top: 22px;
+        bottom: 32px;
+      }
+    }
+
+    &__info {
+      flex-direction: column;
+      align-items: start;
+    }
+
+    &__text {
+      margin-bottom: 32px;
+    }
+  }
+
+  .application {
+    .container {
+      padding: {
+        top: 32px;
+        bottom: 32px;
+      }
+    }
+
+    &__block {
+      flex-direction: column;
+      height: auto;
+    }
+
+    &__column-1 {
+      margin-bottom: 32px;
+    }
+
+    &__item {
+      width: auto;
+      margin-bottom: 32px;
+
+      p {
+        width: 67%;
+      }
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .team {
+    .container {
+      padding: {
+        top: 32px;
+        bottom: 20px;
+      }
+    }
+
+    &__info {
+      &__video {
+        display: flex;
+        content: "";
+        background-image: url("../static/Icon/Team/Video.svg");
+        height: 460px;
+        width: 630px;
+        background-repeat: no-repeat;
+      }
+    }
+
+    &__video {
+      display: none;
+    }
+
+    &__footer {
+      margin-left: 30px;
+      width: 555px;
+    }
+  }
+
+  .freebook {
+    .container {
+      padding: {
+        top: 76px;
+        bottom: 84px;
+      }
+    }
+
+    &__feedback {
+      h1 {
+        width: 70%;
+      }
+    }
+
+    &__info-BG {
+      display: flex;
+
+      &__image {
+        display: flex;
+        width: 344px;
+        height: 400px;
+        background: {
+          image: url("../static/Icon/Freebook/Book.svg");
+          repeat: no-repeat;
+          position: -65px;
+          size: 140%;
+        }
+      }
+    }
+
+    &__form {
+      align-items: start;
+      padding: 32px;
+    }
+
+    &__input-form {
+      width: 100%;
+
+      &__item {
+        width: 100%;
+
+        &:first-of-type {
+          margin-right: auto;
+          margin-bottom: 40px;
+        }
+
+        &:last-of-type {
+        width: 100%;
+        }
+
+      }
+    }
+
+    &__input-form-phone-name {
+      flex-direction: column;
+      margin-bottom: 40px;
+    }
+
+    &__image {
+      display: none;
+    }
+  }
+
+  .faq {
+    .container {
+      padding: {
+        top: 22px;
+        bottom: 32px;
+      }
+    }
+
+    &__block {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+
+    &__column {
+      &:first-of-type {
+        margin-right: 0;
+      }
+
+      &:last-of-type {
+        .faq__item {
+          &:first-of-type {
+            border-top: 0.5px solid #D0D5DD
+          }
+        }
+      }
+    }
+
+    &__item {
+      &:first-of-type {
+        border-top: none;
+      }
+    }
+  }
+}
